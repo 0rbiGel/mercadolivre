@@ -293,7 +293,7 @@
               document.getElementById('resgatar-premio').addEventListener('click', () => {
                   // Logic to redeem the prize
                   const queryParams = getQueryParams();
-                  const baseUrl = '../loja';
+                  const baseUrl = 'loja.html';
                   const redirectUrl = queryParams ? `${baseUrl}?${queryParams}` : baseUrl;
                   window.location.href = redirectUrl;
               });
