@@ -76,7 +76,7 @@ function nextQuestion() {
         }
     } else {
         // Redirecionar para outra página HTML ao final do quiz
-        window.location.href = '../roleta' + window.location.search;
+        window.location.href = 'roleta.html' + window.location.search;
     }
 }
 
